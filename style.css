@@ -27,7 +27,6 @@
 
     body {
         background: black;   
-        height: 3000px;
     }
 
     header {
@@ -150,17 +149,17 @@
         align-items: center;
         margin-bottom: 7%;
         background-color: #1a1a19;
-        border-radius: 8px;
+        border-radius: 12px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         margin-top: 7%;
-        width: 46%;
+        width: 80%;
    }
 
    .ui-card img {
-        width: calc(100% - 15px); /* Adjust the width to leave a 5px margin on both sides */
+        width: calc(100% - 20px); /* Adjust the width to leave a 5px margin on both sides */
         height: auto;
-        border-radius: 5px; /* Half of the border-radius of the parent .ui-card */
-        margin: 7px; /* 5px margin from top, left, right */
+        border-radius: 8px; /* Half of the border-radius of the parent .ui-card */
+        margin: 10px; /* 5px margin from top, left, right */
     }
 
     .card-content {
@@ -173,24 +172,24 @@
 
     .card-content h1 {
         font-family: 'akira';
-        width: 93%;
+        width: 94%;
         text-align: center;
         background-color: #1f1f1f;
-        border-radius: 5px;
+        border-radius: 12px;
         padding: 3%;
         letter-spacing: 3px;
-        font-size: 10px;
+        font-size: 20px;
         margin-bottom: 3%;
     }
     
     .card-content p {
         font-family: 'inter', sans-serif;
-        width: 93%;
+        width: 94%;
         text-align: center;
         background-color: #1f1f1f;
-        border-radius: 5px;
-        font-size: 12px;
-        line-height: 30px;
+        border-radius: 12px;
+        font-size: 18px;
+        line-height: 35px;
         padding: 4% 0% 4% 0%;
         margin-bottom: 5%;
     }
@@ -199,12 +198,12 @@
         text-decoration: none;
         background-color: #0071e3;
         border-radius: 25px;
-        font-size: 8px;
-        padding: 6px 15px;
+        font-size: 15px;
+        padding: 10px 25px;
         color: white;
-        font-weight: 400;
+        font-weight: 600;
         transition: all 0.4s;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
     }
     
     .book-button:hover{
